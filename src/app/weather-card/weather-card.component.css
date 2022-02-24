@@ -1,0 +1,19 @@
+.main-wrapper-card{
+    background-image:linear-gradient(to right bottom, rgb(239, 8, 247,0.8), rgb(74, 13, 216,0.9)), url(src/assets/cloudy.jpg);
+    background-position:center bottom;
+    background-size: cover;
+    width: 25%;
+    height: 50%;
+    margin: 0 auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.circle-icon{
+    background-color: rgb(233, 201, 22);
+    border-radius:50%;
+    width: 5%;
+    height: 4%;
+}
