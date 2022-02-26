@@ -1,15 +1,20 @@
 .main-wrapper-card{
-    background-image:linear-gradient(to right top, rgba(255,255,2559,0.8),rgb(255, 115, 0, 0.8) ), url(src/assets/summer.jpg);
-    /* background-blend-mode: screen; */
+    background-image: url(src/assets/clould.jpg);
+    /* background-blend-mode: luminosity; */
     background-position:center bottom;
     background-size: cover;
     height: 50%;
+    width: 20% !important;
     margin: 0 auto;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+    box-shadow: 0 0 50px #ccc;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 20px !important;
+}
+.temperature{
+    font-size: 80px;
 }
 .circle-icon{
     background-color: rgb(233, 201, 22);
@@ -17,3 +22,8 @@
     width: 5%;
     height: 5%;
 }
+.active{
+    color: rgb(233, 201, 22);
+}
+
+
